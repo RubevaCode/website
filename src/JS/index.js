@@ -5,6 +5,6 @@ window.addEventListener("load", function () {
   year.innerHTML = currentYear;
 
   AOS.init({
-    duration: 1000,
+    duration: 1200,
   });
 });
