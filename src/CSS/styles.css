@@ -1,0 +1,146 @@
+/****** COLORS ******/
+:root {
+  --green: #1d5b5d;
+  --bg-dark-green: #091011;
+  --bg-light-orange: #edddba;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+  background-color: var(--bg-dark-green);
+  /* overflow-x: hidden !important; */
+  scroll-behavior: smooth !important;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  height: 100%;
+}
+.bg-home {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(../Images/bg-home.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.bg-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(../Images/bg-services.jpg);
+  /* background-image: url(../Images/bg-services.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.custom-navbar-collapse {
+  flex-grow: 0;
+}
+
+.custom-nav-item {
+  margin-right: 2rem !important;
+}
+
+/***** BACKGROUND *****/
+.c-bg-green {
+  background-color: var(--green) !important;
+}
+
+.c-bg-dark-green {
+  background-color: var(--bg-dark-green) !important;
+}
+
+.c-bg-light-orange {
+  background-color: var(--bg-light-orange) !important;
+}
+
+.c-bg-whitesmoke {
+  background-color: whitesmoke !important;
+}
+
+/***** TEXT *****/
+.c-text-green {
+  color: var(--green) !important;
+}
+
+/***** FONT *****/
+
+.c-fs-5 {
+  font-size: 5rem !important;
+}
+
+/***** SPACING *****/
+.ml-5 {
+  margin-left: 3rem !important;
+}
+
+/***** POSITION *****/
+.top-40 {
+  top: 40% !important;
+}
+
+/***** HEIGHT *****/
+.c-h-100px {
+  height: 100px;
+}
+
+.c-h-200px {
+  height: 200px;
+}
+
+.c-h-600px {
+  height: 600px;
+}
+/***** WIDTH *****/
+.c-w-200px {
+  width: 200px;
+}
+
+.c-w-300px {
+  width: 300px;
+}
+
+/***** BORDER *****/
+.border-radius-none {
+  border-radius: 0px !important;
+}
+
+.services-img {
+  background: #054547;
+  border-radius: 0px 50px 0px 0px;
+}
+
+.c-text-orange {
+  color: var(--bg-light-orange);
+}
+
+.c-text-email {
+  letter-spacing: 2px;
+}
+
+.c-primary-btn {
+  background-color: var(--green) !important;
+  border: none !important;
+}
+
+.social-link {
+  padding: 0 12px;
+}
+
+.social-link img {
+  width: 35px;
+  height: 35px;
+}
