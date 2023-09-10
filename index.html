@@ -46,7 +46,7 @@
                 <!-------------------- NAVIGATION BAR ---------------------->
                 <nav class="navbar navbar-expand-lg bg-transparent py-3">
                     <div class="container-fluid">
-                        <a class="navbar-brand cursor-pointer" onclick="handleClick('#home')">
+                        <a class="navbar-brand cursor-pointer" id="homeLink">
                             <h2 class="c-text-whitesmoke mb-0">Rubeva</h2>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -56,13 +56,13 @@
                         </button>
                         <div class="collapse navbar-collapse custom-navbar-collapse" id="navBarToggler">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item custom-nav-item" onclick="handleClick('#advantages')">
+                                <li class="nav-item custom-nav-item" id="aboutLink">
                                     <a class="nav-link text-uppercase c-text-whitesmoke " aria-current="page">About</a>
                                 </li>
-                                <li class="nav-item custom-nav-item" onclick="handleClick('#services')">
+                                <li class="nav-item custom-nav-item" id="servicesLink">
                                     <a class="nav-link text-uppercase c-text-whitesmoke">Services</a>
                                 </li>
-                                <li class="nav-item custom-nav-item" onclick="handleClick('#contact')">
+                                <li class="nav-item custom-nav-item" id="contactLink">
                                     <a class="nav-link text-uppercase c-text-whitesmoke">Contact</a>
                                 </li>
                             </ul>
@@ -86,7 +86,7 @@
                             services provided through drone applications.
                         </h5>
 
-                        <a onclick="handleClick('#advantages')"><button type="button"
+                        <a id="advantagesBtn"><button type="button"
                                 class="btn btn-outline-light py-3 px-5 text-uppercase">Why
                                 use
                                 drones? <i class="bi-arrow-right ms-3"></i></button>
@@ -169,7 +169,7 @@
                 <div class="col">
                     <div class="card border-radius-none h-100 c-bg-dark-green">
                         <div class="card-body">
-                            <a onclick="handleClick('#services')">
+                            <a id="servicesBtn">
                                 <button type="button" class="btn btn-outline-light my-4 py-3 px-5 text-uppercase">Check
                                     out
                                     our
@@ -203,7 +203,7 @@
                         Optimize the cost of running your farm and get a real-time picture of the status of your crops.
                     </p>
 
-                    <a onclick="handleClick('#contact')">
+                    <a id="contactBtn">
                         <button type="button" class="btn btn-outline-light py-3 px-5 text-uppercase">
                             Submit a request
                             <i class="bi-arrow-right ms-3"></i></button>
