@@ -21,13 +21,22 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper {
-  height: 100%;
+body > div {
+  overflow-x: hidden !important;
 }
+
+.c-h100-vh {
+  height: 100vh;
+}
+
+.c-h-75 {
+  height: 75%;
+}
+
 .bg-home {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url(../Images/bg-home.jpg);
+    url(../Images/bg-home.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,8 +46,7 @@ body {
 
 .bg-services {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url(../Images/bg-services.jpg);
-  /* background-image: url(../Images/bg-services.jpg); */
+    url(../Images/bg-services.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,4 +159,44 @@ body {
 .nav-link:hover {
   color: whitesmoke !important;
   font-weight: 600 !important;
+}
+
+.c-lg-text {
+  font-size: 2rem;
+}
+
+.c-card-title {
+  margin-bottom: 1.5rem;
+}
+
+/**** Breakpoints ****/
+@media only screen and (min-width: 475px) {
+  .c-lg-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .c-lg-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .c-card-title {
+    height: 100px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .c-lg-text {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .c-lg-text {
+    font-size: 5rem;
+  }
 }
