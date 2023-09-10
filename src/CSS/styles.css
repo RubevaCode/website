@@ -169,6 +169,13 @@ body > div {
   margin-bottom: 1.5rem;
 }
 
+li.nav-item {
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
 /**** Breakpoints ****/
 @media only screen and (min-width: 475px) {
   .c-lg-text {
